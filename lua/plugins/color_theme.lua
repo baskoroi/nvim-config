@@ -1,9 +1,8 @@
 return {
-    'catppuccin/nvim', 
-    name = 'catppuccin', 
-    lazy = false,
+    'catppuccin/nvim',
+    name = 'catppuccin',
     priority = 1000,
-    config = {
+    opt = {
         flavour = 'frappe',
     },
 }
